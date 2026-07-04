@@ -66,6 +66,3 @@ FROM Patients
 WHERE Discharge_Date > Date_of_Admission
 GROUP BY Medical_Condition 
 ORDER BY Avg_LOS_Days DESC;
-
-
-SELECT * FROM Patients;
